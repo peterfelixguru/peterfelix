@@ -1,0 +1,313 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "defaultPalette": false,
+            "palette": [
+                {
+                    "slug": "peter-white",
+                    "color": "#FFFFFF",
+                    "name": "Peter White"
+                },
+                {
+                    "slug": "-eter-white-200",
+                    "color": "#FAFAFA",
+                    "name": "Peter White 200"
+                },
+                {
+                    "slug": "peter-white-400",
+                    "color": "#B5B5B5",
+                    "name": "Peter White 400"
+                },
+                {
+                    "slug": "peter-white-600",
+                    "color": "#909090",
+                    "name": "Peter White 600"
+                },
+                {
+                    "slug": "peter-white-800",
+                    "color": "#464646",
+                    "name": "Peter White 800"
+                },
+                {
+                    "slug": "peter-black",
+                    "color": "#212121",
+                    "name": "Peter Black"
+                },
+                {
+                    "slug": "peter-disabled",
+                    "color": "#8A8E8A",
+                    "name": "Peter Disabled"
+                },
+                {
+                    "slug": "peter-error",
+                    "color": "#FF3333",
+                    "name": "Peter Error"
+                },
+                {
+                    "slug": "peter-warning",
+                    "color": "#FFE16A",
+                    "name": "Peter Warning"
+                },
+                {
+                    "slug": "peter-info",
+                    "color": "#004CE8",
+                    "name": "Peter Info"
+                },
+                {
+                    "slug": "peter-success",
+                    "color": "#EF7D1A",
+                    "name": "Peter Success"
+                },
+                {
+                    "slug": "peter-tertiary",
+                    "color": "#593202",
+                    "name": "Peter Tertiary"
+                },
+                {
+                    "slug": "peter-secondary",
+                    "color": "#99B81F",
+                    "name": "Peter Secondary"
+                },
+                {
+                    "slug": "peter-main",
+                    "color": "#F2BD1D",
+                    "name": "Peter Main"
+                }
+            ],
+            "background": true,
+            "link": true,
+            "heading": true,
+            "text": true,
+            "button": false,
+            "custom": true
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "Rubik, Sans-serif",
+                    "slug": "peter-rubik",
+                    "name": "Peter Rubik"
+                }
+            ],
+            "fontSizes": [
+                {
+                    "slug": "small",
+                    "size": "0.75rem",
+                    "name": "Small"
+                },
+                {
+                    "slug": "medium",
+                    "size": "1.25rem",
+                    "name": "Medium"
+                },
+                {
+                    "slug": "large",
+                    "size": "2.25rem",
+                    "name": "Large"
+                },
+                {
+                    "slug": "x-large",
+                    "size": "3rem",
+                    "name": "X-large"
+                },
+                {
+                    "slug": "gigantic",
+                    "size": "3.75rem",
+                    "name": "Gigantic"
+                }
+            ],
+            "lineHeight": true,
+            "dropCap": true,
+            "fontWeight": true,
+            "fontStyle": true,
+            "textTransform": true,
+            "letterSpacing": true,
+            "textDecoration": true
+        },
+        "blocks": {
+            "core/site-title": {
+                "color": {
+                    "defaultPalette": false,
+                    "palette": [
+                        {
+                            "slug": "peter-white",
+                            "color": "#FFFFFF",
+                            "name": "Peter White"
+                        },
+                        {
+                            "slug": "-eter-white-200",
+                            "color": "#FAFAFA",
+                            "name": "Peter White 200"
+                        },
+                        {
+                            "slug": "peter-white-400",
+                            "color": "#B5B5B5",
+                            "name": "Peter White 400"
+                        },
+                        {
+                            "slug": "peter-white-600",
+                            "color": "#909090",
+                            "name": "Peter White 600"
+                        },
+                        {
+                            "slug": "peter-white-800",
+                            "color": "#464646",
+                            "name": "Peter White 800"
+                        },
+                        {
+                            "slug": "peter-black",
+                            "color": "#212121",
+                            "name": "Peter Black"
+                        },
+                        {
+                            "slug": "peter-disabled",
+                            "color": "#8A8E8A",
+                            "name": "Peter Disabled"
+                        },
+                        {
+                            "slug": "peter-error",
+                            "color": "#FF3333",
+                            "name": "Peter Error"
+                        },
+                        {
+                            "slug": "peter-warning",
+                            "color": "#FFE16A",
+                            "name": "Peter Warning"
+                        },
+                        {
+                            "slug": "peter-info",
+                            "color": "#004CE8",
+                            "name": "Peter Info"
+                        },
+                        {
+                            "slug": "peter-success",
+                            "color": "#EF7D1A",
+                            "name": "Peter Success"
+                        },
+                        {
+                            "slug": "peter-tertiary",
+                            "color": "#593202",
+                            "name": "Peter Tertiary"
+                        },
+                        {
+                            "slug": "peter-secondary",
+                            "color": "#99B81F",
+                            "name": "Peter Secondary"
+                        },
+                        {
+                            "slug": "peter-main",
+                            "color": "#F2BD1D",
+                            "name": "Peter Main"
+                        }
+                    ],
+                    "background": true,
+                    "text": true,
+                    "link": true,
+                    "custom": true
+                },
+                "typography": {
+                    "fontFamilies": [
+                        {
+                            "fontFamily": "Pacifico, Sans-serif",
+                            "slug": "peter-pacifico",
+                            "name": "Peter Pacifico"
+                        }
+                    ]
+                }
+            },
+            "core/preformatted": {
+                "typography": {
+                    "fontSizes": [],
+                    "customFontSize": false
+                }
+            }
+        },
+        "layout": {
+            "contentSize": "800px",
+            "wideSize": "1100px"
+        },
+        "spacing": {
+            "padding": true,
+            "margin": true,
+            "units": [
+                "px",
+                "em",
+                "rem",
+                "vh",
+                "vw",
+                "%"
+            ],
+            "blockGap": true
+        },
+        "border": {
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": true
+        }
+    },
+    "styles": {
+        "color": {
+            "background": "var(--wp--preset--color--peter-white-200)"
+        },
+        "elements": {
+            "link": {
+                "color": {
+                    "text": "var(--wp--preset--color--peter-main)"
+                },
+                ":hover": {
+                    "color": {
+                        "text": "var(--wp--preset--color--peter-black)"
+                    }
+                }
+            },
+            "h1": {
+                "color": {
+                    "text": "var(--wp--preset--color--peter-main)"
+                }
+            }
+        },
+        "blocks": {
+            "core/button": {
+                "color": {
+                    "gradient": "var(--wp--preset--color--peter-main)"
+                }
+            },
+            "core/pullquote": {
+                "border": {
+                    "width": "2px",
+                    "radius": "10",
+                    "color": "var(--wp--preset--color--peter-main)",
+                    "style": "solid"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--peter-rubik)",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "lineHeight": "inherit",
+            "textDecoration": "none",
+            "textTransform": "none"
+        },
+        "spacing": {
+            "margin": {
+                "top": "0px",
+                "bottom": "0px",
+                "left": "0px",
+                "right": "0px"
+            },
+            "padding": {
+                "top": "0px",
+                "bottom": "0px",
+                "left": "0px",
+                "right": "0px"
+            },
+            "blockGap": "4rem"
+        }
+    }
+}
